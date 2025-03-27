@@ -1,0 +1,2 @@
+# docs
+Nexurachain's documentation 
