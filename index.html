@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NEXURACHAIN Documentation</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="NEXURACHAIN Documentation">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="assets/css/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      repo: '',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      homepage: 'intro.md',
+      loadSidebar: 'sidebar.md',
+      loadNavbar: 'navbar.md',
+      name: 'NEXURACHAIN',
+      auto2top: true,
+      markdown: {
+        gfm: true,
+        tables: true,
+      },
+      themeColor: '#47b1de',
+      pagination: {
+        previousText: 'Previous chapter',
+        nextText: 'Next chapter',
+        crossChapter: true,
+        crossChapterText: true,
+      },
+      tabs: {
+        persist    : true,      // default
+        sync       : true,      // default
+        theme      : 'classic', // default
+        tabComments: true,      // default
+        tabHeadings: true       // default
+      },
+      remoteMarkdown: {
+        tag: 'remoteMarkdownUrl', 
+      }
+    }
+  </script>
+  <script src="assets/js/docsify.min.js"></script>
+  <script src="assets/js/search.min.js"></script>
+  <script src="assets/js/docsify-pagination.min.js"></script>
+  <script src="assets/js/prism-bash.min.js"></script>
+  <script src="assets/js/prism-json.min.js"></script>
+  <script src="assets/js/prism-javascript.min.js"></script>
+  <script src="assets/js/prism-typescript.min.js"></script>
+  <script src="assets/js/prism-rust.min.js"></script>
+  <script src="assets/js/prism-c.min.js"></script>
+  <script src="assets/js/prism-graphql.min.js"></script>
+  <script src="assets/js/prism-makefile.min.js"></script>
+  <script src="assets/js/prism-diff.min.js"></script>
+  <script src="assets/js/docsify-tabs@1.js"></script>
+  <script src="assets/js/docsify-plugin-flexible-alerts.min.js"></script>
+  <script>
+    var source = document.documentElement.clientWidth > 768 ? 1 : 4;
+    window.woodpecker = window.woodpecker || {
+      app: 38,
+      source: source,
+      env: 'prd',
+      modules: {
+        vhash: {
+          type: 'woodpecker'
+        }
+      }
+    };
+    (function() {
+      var bw = document.createElement('script');
+      bw.src = 'assets/js/woodpecker.js';
+      bw.async = true;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(bw, s);
+    })();
+  </script>
+</body>
+</html>

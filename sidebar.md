@@ -1,0 +1,30 @@
+- [About NEXURACHAIN](intro.md)
+- Governance
+    - [The Company](Company.md)
+    - [Validator](Validator.md)
+    - [NEXURACHAIN Tokenomics](Tokenomics.md)
+    - [Integrity and Compliance](Integrity.md)
+- [Wallet](wallet.md)
+- [Crosschain Bridge](bridge.md)
+- [Consensus](consensus.md)
+- [Genesis](genesis.md)
+- Developers
+    - [Compile and Run](dev/install.md)
+    - [Deployment](dev/deploy.md)
+    - [On-chain Interaction](dev/sdk.md)
+    - [Contract](dev/contract.md)
+    - [Private Chain](dev/private_chain.md)
+    - [Graph Node](dev/graphnode.md)
+    - [Mainnet](mainnet.md)
+    - [Testnet](testnet.md)
+    - [ERC20](dev/erc20.md)
+    - [Txpool](dev/txpool.md)
+- Announcement
+    - [Announcement](Announcement.md)
+- FAQ
+    - [FAQ](faq.md)
+- Legal
+    - [Disclaimer](disclaimer.md)
+    - [Terms of Service](tos.md)
+    - [Privacy Policty](privacy-policy.md)
+    
