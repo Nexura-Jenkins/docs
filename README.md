@@ -1,2 +1,2 @@
 # docs
-Nexurachain's documentation 
+Nexurachain's documentation
